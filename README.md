@@ -10,7 +10,7 @@ This quick lighting example was made using assets purchased from the Unity Asset
 * Set up project for Oculus Quest 2 deployment.
 * Built and tested the example at a steady 72 FPS.
 * Total lightmap file size: 14.3 MB.
-* Please note I was limited on time for the baking itself and medium quality settings where used.
+* Please note I was limited on time for the baking itself and medium quality settings were used.
 
 You can find the APK included in the repo to test on your own device! (Note size of APK itself is not optimized)
 
@@ -32,7 +32,7 @@ Mesh lightmap distibution optimized.
 
 ![alt_text](https://github.com/RyanMurdoch1/Lighting_Example/blob/main/Assets/Editor_Captures/TexelAllocation.png)
 
-Used the UVs from the store assets, with the exception of the rooms walls. The walls UVs where poorly done and displayed obvious artefacts while baking. I corrected this by manually generating the UVs in unity.
+Used the UVs from the store assets, with the exception of the room's walls. The wall's UVs were poorly done and displayed obvious artefacts while baking. I corrected this by manually generating the UVs in unity.
 
 Worked to correct UV overlap in the cases of the most noticeable artefacts by allocating more space where needed in the lightmaps.
 
