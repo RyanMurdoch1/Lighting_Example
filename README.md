@@ -27,7 +27,7 @@ Low triangle and setpass calls were achieved while having realtime shadows cast 
 Mesh lightmap distibution optimized.
 
 * Focus on allocating texels to objects at the scene's focal point. (Stool underneath player could have used a bit more space in the atlas considering it often receives realtime shadows...)
-* More texels where allocated to objects receiving shadows from the bake. (Shown in the example below)
+* More texels were allocated to objects receiving shadows from the bake. (Shown in the example below)
 * Large floor and wall meshes proved problematic sizing for baking into atlases. Would recommend the splitting of these larger meshes to allow more individual texel allocation depending on proximity to focal point and likelihood to recieve shadows. (And a negligible drop in tris from frustrum culling)
 
 ![alt_text](https://github.com/RyanMurdoch1/Lighting_Example/blob/main/Assets/Editor_Captures/TexelAllocation.png)
